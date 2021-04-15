@@ -1,6 +1,7 @@
 function twoSum(arr = [], target) {
   if (arr.length < 2) return [];
   // Brute force solution
+  // O(n^2)
   let response = [];
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
@@ -20,6 +21,7 @@ function twoSum(arr = [], target) {
 function twoSumPlus(arr = [], target) {
   if (arr.length < 2) return [];
   // Hash Map Solution
+  // O(n)
   let hash = {};
 
   for (let i = 0; i <= arr.length; i++) {
