@@ -22,6 +22,10 @@ class MinStack {
   }
 
   pop() {
+    if (this.top === null) {
+      return null;
+    }
+
     let data = this.top.value;
     this.top = this.top.next;
 
