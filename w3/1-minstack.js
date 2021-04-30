@@ -70,7 +70,6 @@ class MinStack {
     if (this.currentStack.pop() === this.minStack.peek()) {
       this.minStack.pop();
     }
-    // this.currentStack.pop();
   }
 
   peek() {
