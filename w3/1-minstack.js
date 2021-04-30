@@ -81,6 +81,7 @@ class MinStack {
   }
 }
 
+console.log('------- CASE 1 -------');
 let minStackBasic = new MinStack();
 minStackBasic.push(-2);
 minStackBasic.push(0);
